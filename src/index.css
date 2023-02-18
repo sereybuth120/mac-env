@@ -1,13 +1,23 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  /** COLOR */
+  --grey-one: #3e43464d;
+  --text-color-secondary: #2c2c2c;
+
+  /** BACKGROUND */
+  --bg-primary: rgba(255, 255, 255, 0.15);
+  --bg-secondary: rgba(35, 38, 39, 0.8);
+
+  /** BOX SHADOW */
+  --box-shadow: rgba(0, 0, 0, 0.2);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0;
+  font-family: Open Sans;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url("./asset/images/macos-big-sur-wallpaper.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: auto;
 }

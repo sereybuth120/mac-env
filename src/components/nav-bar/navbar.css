@@ -1,0 +1,22 @@
+.container {
+  width: 100vw;
+  height: 2rem;
+  box-shadow: 0 0 1rem 0 var(--box-shadow);
+  border-radius: 5px;
+  background-color: var(--bg-primary);
+  border-bottom: 1px solid var(--grey-one);
+  border-radius: 0;
+  backdrop-filter: blur(5px);
+}
+
+.content {
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 600;
+  height: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  color: var(--text-color-secondary);
+}
