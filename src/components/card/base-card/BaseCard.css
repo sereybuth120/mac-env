@@ -1,0 +1,42 @@
+.baseCardContainer {
+  min-width: 100px;
+  min-height: 100px;
+  border-radius: 20px;
+  background-color: var(--bg-secondary);
+  backdrop-filter: blur(5px);
+}
+
+.baseCardHeader {
+  display: flex;
+  background-color: var(--bg-title);
+  align-items: center;
+  border-radius: 20px 20px 0 0;
+  padding: 8px;
+  gap: 8px;
+}
+
+.baseCardActionIcon {
+  height: 12px;
+  width: 12px;
+  font-size: 10px;
+  text-align: center;
+  border-radius: 50%;
+  display: inline-block;
+}
+.baseCardActionIcon > span {
+  display: none;
+  cursor: pointer;
+}
+
+.baseCardActionIcon:hover > span {
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+}
+
+.baseCardTitle {
+  color: var(--white);
+  font-weight: 600;
+  font-family: Open Sans;
+  padding-left: 27%;
+}

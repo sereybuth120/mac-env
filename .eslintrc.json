@@ -2,8 +2,8 @@
   "plugins": ["prettier", "import"],
   "extends": ["react-app", "airbnb", "airbnb/hooks", "prettier"],
   "rules": {
-    "import/no-unresolved": "error",
-    "prettier/prettier": "error",
+    "import/no-unresolved": "warn",
+    "prettier/prettier": "warn",
     "react/react-in-jsx-scope": "off",
     "import/extensions": [
       "error",
@@ -16,6 +16,8 @@
       }
     ],
     "no-unused-vars": "off",
+    // "no-use-before-define": ["error", { "variables": false }],
+    "no-use-before-define": ["error", { "functions": false, "classes": false }],
     "@typescript-eslint/no-unused-vars": ["off"],
     "react/jsx-no-duplicate-props": [
       "error",
